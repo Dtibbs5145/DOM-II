@@ -34,7 +34,7 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 * [ ] Using your [index.js file](js/index.js), create 10 [unique event listeners](https://developer.mozilla.org/en-US/docs/Web/Events). using your creativity to make the Fun Bus site more interactive.  Here are some unique events you could try to use: 
 	* [X] `mouseover`
-	* [ ] `keydown`
+	* [X] `keydown`
 	* [ ] `wheel`
 	* [ ] `drag / drop`
 	* [ ] `load`
@@ -42,10 +42,15 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 	* [ ] `resize`
 	* [ ] `scroll`
 	* [ ] `select`
-	* [ ] `dbclick`
+	* [X] `dbclick`
 	* [X] `mousedown`
 	* [X] `mouseup`
 	* [X] `click`
+	* [X] `keyup`
+	* [X] `mouseenter`
+	* [X] `mouseleave`
+	* [X] `contextmenu`
+	
 
 Using the 10 unique events, find ways to update the DOM in creative ways. For example you could change colors, animate objects, remove objects, etc.
 

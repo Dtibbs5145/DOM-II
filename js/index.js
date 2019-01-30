@@ -41,9 +41,33 @@ letsGo.addEventListener('mouseup', function (e) {
     e.target.style.fontSize = "32px";
 });
 
-const header = document.querySelector('.main-navigation');
+const header = document.querySelector('body');
 header.addEventListener('keydown', function (e) {
-    e.target.style.backgroundColor = "coral"; 
+    e.target.style.backgroundColor = "pink"; 
+});
+
+header.addEventListener('keyup', function (e) {
+    e.target.style.backgroundColor = "white";
+});
+
+const funBus = document.querySelector('h1');
+funBus.addEventListener('mouseenter', function (e) {
+    e.target.style.color = "red";
+});
+
+funBus.addEventListener('mouseleave', function (e) {
+    e.target.style.color = "black";
+});
+
+const btns = document.querySelectorAll('.btn');
+btns[0].addEventListener('dblclick', function (e) {
+    e.target.style.backgroundColor = 'yellow';
+});
+btns[1].addEventListener('dblclick', function (e) {
+    e.target.style.backgroundColor = 'blue';
+});
+btns[2].addEventListener('contextmenu', function (e) {
+    e.target.style.backgroundColor = 'yellow';
 });
 
 
